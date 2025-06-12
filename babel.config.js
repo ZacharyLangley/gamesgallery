@@ -1,4 +1,7 @@
 module.exports = api => {
+  // Enable caching for faster builds
+  api.cache(true);
+
   // Shared plugins for all environments
   const sharedPlugins = [
     'react-native-reanimated/plugin',

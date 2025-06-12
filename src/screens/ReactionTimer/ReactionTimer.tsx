@@ -1,11 +1,12 @@
 import React, { memo } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { Text, StyleSheet } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export const ReactionTimer = memo(() => {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Text style={styles.title}>{'Reaction Timer'}</Text>
-    </View>
+    </SafeAreaView>
   );
 });
 
@@ -14,7 +15,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f0f0f0',
   },
   title: {
     fontSize: 24,
