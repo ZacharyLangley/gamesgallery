@@ -1,0 +1,15 @@
+export const CONSTANTS = {
+  TIMING: {
+    COUNTDOWN_DURATION: 1000,
+    MIN_WAIT_TIME: 0,
+    MAX_WAIT_TIME: 5000,
+    MAX_REACTION_TIME: 10000,
+  },
+  SCORES: {
+    MAX_SCORES: 5,
+  },
+  ANIMATIONS: {
+    SCALE_DURATION: 500,
+    FADE_DURATION: 300,
+  },
+} as const;
