@@ -5,6 +5,13 @@ export type Score = {
   timestamp: number;
 };
 
+export type GameActions = {
+  startGame: () => void;
+  handleTap: () => void;
+  resetGame: () => void;
+  tryAgain: () => void;
+};
+
 export type GameStore = {
   state: GameState;
   scores: Score[];
@@ -12,10 +19,5 @@ export type GameStore = {
   startTime: number | null;
   loading: boolean;
   count: number;
-  actions: {
-    startGame: () => void;
-    handleTap: () => void;
-    resetGame: () => void;
-    tryAgain: () => void;
-  };
+  actions: GameActions;
 };
