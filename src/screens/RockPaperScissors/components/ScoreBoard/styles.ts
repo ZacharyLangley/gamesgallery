@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
     marginVertical: 20,
   },
   scoreContainer: {
-    flex: 2,
+    flex: 1,
     alignItems: 'center',
   },
   label: {
@@ -22,9 +22,7 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#333',
   },
-  vsContainer: {
-    flex: 1,
-  },
+  vsContainer: {},
   vs: {
     fontSize: 24,
     fontWeight: 'bold',
