@@ -15,9 +15,9 @@ export const ReactTimerConfig = {
     <FontAwesome name="bolt" size={size} color={color} iconStyle="solid" />
   ),
 };
-export const MemoryMatchConfig = {
+export const BlackjackConfig = {
   tabBarIcon: ({ color, size }: IconProps) => (
-    <FontAwesome name="clone" size={size} color={color} iconStyle="solid" />
+    <FontAwesome name="hand-holding-dollar" size={size} color={color} iconStyle="solid" />
   ),
 };
 export const NumberGuessingConfig = {

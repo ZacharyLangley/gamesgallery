@@ -1,5 +1,5 @@
 export enum Routes {
-  MemoryMatch = 'MemoryMatch',
+  Blackjack = 'Blackjack',
   NumberGuessing = 'NumberGuessing',
   ReactionTimer = 'ReactTimer',
   RockPaperScissors = 'RockPaperScissors',

@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Routes } from './routes';
-import { MemoryMatch } from '../screens/MemoryMatch';
+import { Blackjack } from '../screens/Blackjack';
 import { ReactionTimer } from '../screens/ReactionTimer';
 import { NumberGuessing } from '../screens/NumberGuessing';
 import { RockPaperScissors } from '../screens/RockPaperScissors';
@@ -9,7 +9,7 @@ import { TicTacToe } from '../screens/TicTacToe';
 import {
   screenOptions,
   ReactTimerConfig,
-  MemoryMatchConfig,
+  BlackjackConfig,
   NumberGuessingConfig,
   RockPaperScissorsConfig,
   TicTacToeConfig,
@@ -20,7 +20,7 @@ const Tab = createBottomTabNavigator();
 export const BottomTabNavigator = memo(() => (
   <Tab.Navigator initialRouteName={Routes.ReactionTimer} screenOptions={screenOptions}>
     <Tab.Screen name={Routes.ReactionTimer} component={ReactionTimer} options={ReactTimerConfig} />
-    <Tab.Screen name={Routes.MemoryMatch} component={MemoryMatch} options={MemoryMatchConfig} />
+    <Tab.Screen name={Routes.Blackjack} component={Blackjack} options={BlackjackConfig} />
     <Tab.Screen
       name={Routes.NumberGuessing}
       component={NumberGuessing}
