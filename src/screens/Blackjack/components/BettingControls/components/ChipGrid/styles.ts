@@ -1,13 +1,11 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#2E7D32',
-  },
-  controlsContainer: {
-    flex: 1,
+  chipContainer: {
+    flexDirection: 'row',
     justifyContent: 'center',
-    padding: 20,
+    flexWrap: 'wrap',
+    gap: 15,
+    marginBottom: 20,
   },
 });

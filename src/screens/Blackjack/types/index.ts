@@ -42,6 +42,9 @@ export interface GameState {
   playerBalance: number;
   gamePhase: GamePhase;
   result?: GameResult;
+  canDoubleDown: boolean;
+  canInsurance: boolean;
+  cardCount: number;
 }
 
 export enum GamePhase {

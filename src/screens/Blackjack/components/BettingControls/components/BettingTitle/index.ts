@@ -1,0 +1,1 @@
+export { BettingTitle } from './BettingTitle';

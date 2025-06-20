@@ -1,2 +1,10 @@
 export { Card } from './Card/Card';
 export { Hand } from './Hand/Hand';
+export { HiddenCard } from './HiddenCard/HiddenCard';
+export { Chip } from './Chip/Chip';
+export { Header } from './Header';
+export { GameResult } from './GameResult';
+export { BettingControls } from './BettingControls';
+export { GameControls } from './GameControls';
+export { GameOverControls } from './GameOverControls';
+export { ResetButton } from './ResetButton';
