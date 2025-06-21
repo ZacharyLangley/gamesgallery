@@ -33,3 +33,5 @@ export const Card: React.FC<CardProps> = memo(
     );
   },
 );
+
+Card.displayName = 'Card';

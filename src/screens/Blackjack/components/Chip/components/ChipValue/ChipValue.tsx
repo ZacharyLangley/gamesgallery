@@ -11,3 +11,5 @@ export const ChipValue: React.FC<ChipValueProps> = memo(({ value, innerRingColor
     </View>
   );
 });
+
+ChipValue.displayName = 'ChipValue';

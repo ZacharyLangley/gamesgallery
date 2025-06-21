@@ -13,3 +13,5 @@ export const ResetButton: React.FC<ResetButtonProps> = memo(({ onReset }) => {
     </TouchableOpacity>
   );
 });
+
+ResetButton.displayName = 'ResetButton';

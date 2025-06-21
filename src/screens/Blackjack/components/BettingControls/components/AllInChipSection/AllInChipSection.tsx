@@ -19,3 +19,5 @@ export const AllInChipSection: React.FC<AllInChipSectionProps> = memo(
     );
   },
 );
+
+AllInChipSection.displayName = 'AllInChipSection';

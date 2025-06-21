@@ -19,3 +19,5 @@ export const BetActions: React.FC<BetActionsProps> = memo(({ onSubmitBet, onClea
     </View>
   );
 });
+
+BetActions.displayName = 'BetActions';

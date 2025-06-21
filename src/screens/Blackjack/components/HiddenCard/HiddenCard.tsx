@@ -13,3 +13,5 @@ export const HiddenCard = memo(({ width, height }: HiddenCardProps) => {
     </View>
   );
 });
+
+HiddenCard.displayName = 'HiddenCard';

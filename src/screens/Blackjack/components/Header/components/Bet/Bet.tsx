@@ -12,3 +12,5 @@ export const Bet = memo(({ label, amount }: BetProps) => {
     </View>
   );
 });
+
+Bet.displayName = 'Bet';

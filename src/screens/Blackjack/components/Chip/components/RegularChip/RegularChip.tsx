@@ -32,3 +32,5 @@ export const RegularChip: React.FC<RegularChipProps> = memo(
     );
   },
 );
+
+RegularChip.displayName = 'RegularChip';

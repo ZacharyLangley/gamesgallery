@@ -15,3 +15,5 @@ export const GameOverControls: React.FC<GameOverControlsProps> = memo(({ onConti
     </View>
   );
 });
+
+GameOverControls.displayName = 'GameOverControls';

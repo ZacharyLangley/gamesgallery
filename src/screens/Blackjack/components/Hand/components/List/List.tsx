@@ -14,3 +14,5 @@ export const List = memo(({ cards }: { cards: CardData[] }) => {
     ),
   );
 });
+
+List.displayName = 'List';

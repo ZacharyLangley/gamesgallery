@@ -12,3 +12,5 @@ export const Chip: React.FC<ChipProps> = memo(({ value, onPress, disabled = fals
 
   return <RegularChip value={value} size={size} onPress={onPress} disabled={disabled} />;
 });
+
+Chip.displayName = 'Chip';

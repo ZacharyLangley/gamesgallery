@@ -12,3 +12,5 @@ export const Balance = memo(({ label, amount }: BetProps) => {
     </View>
   );
 });
+
+Balance.displayName = 'Balance';

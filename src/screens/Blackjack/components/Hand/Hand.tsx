@@ -17,3 +17,5 @@ export const Hand: React.FC<HandProps> = memo(({ cards, title, total, showTotal 
     </View>
   );
 });
+
+Hand.displayName = 'Hand';

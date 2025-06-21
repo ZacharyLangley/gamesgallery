@@ -6,3 +6,5 @@ export const Total = memo(
   ({ total, showTotal = true }: { total?: number; showTotal: boolean }) =>
     showTotal && total !== undefined && <Text style={styles.total}>Total: {total || 0}</Text>,
 );
+
+Total.displayName = 'Total';

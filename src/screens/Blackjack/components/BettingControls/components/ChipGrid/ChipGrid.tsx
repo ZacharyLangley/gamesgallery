@@ -15,3 +15,5 @@ export const ChipGrid: React.FC<ChipGridProps> = memo(({ playerBalance, onAddToB
     </View>
   );
 });
+
+ChipGrid.displayName = 'ChipGrid';

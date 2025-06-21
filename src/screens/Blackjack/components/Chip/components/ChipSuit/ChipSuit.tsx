@@ -12,3 +12,5 @@ export const ChipSuit: React.FC<ChipSuitProps> = memo(({ suit, position }) => {
     </View>
   );
 });
+
+ChipSuit.displayName = 'ChipSuit';

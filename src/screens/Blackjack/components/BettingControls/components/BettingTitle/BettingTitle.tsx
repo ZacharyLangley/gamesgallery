@@ -6,3 +6,5 @@ import { styles } from './styles';
 export const BettingTitle: React.FC = memo(() => {
   return <Text style={styles.bettingTitle}>{'Place Your Bet'}</Text>;
 });
+
+BettingTitle.displayName = 'BettingTitle';

@@ -28,3 +28,5 @@ export const AllInChip: React.FC<AllInChipProps> = memo(({ size, onPress, disabl
     </TouchableOpacity>
   );
 });
+
+AllInChip.displayName = 'AllInChip';
